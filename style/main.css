@@ -1,0 +1,44 @@
+/****** GENERAL ******/
+
+body {font-family: Georgia, Calibri, arial;
+}
+
+/******* HEADER ******/
+
+h1 {font-size: 40px;
+	color: darkblue;
+	background-color: lightblue;
+	text-align: center;
+	border: 6px solid darkblue;
+}
+h2 {font-style: italic;
+	text-decoration: underline;
+	background-color: lightblue;
+	padding: 10px;
+	border: 3px dotted darkblue;
+	margin: 0px auto;
+	width: 645px;
+}
+ol {font-weight: bold;
+}
+
+.ori {text-align: justify;
+}
+#nav {background-color: lightseagreen;
+	text-align: center;
+	list-style-type: none;
+}
+#nav li {display: inline-block;
+	padding: 6px 8px;
+}
+#nav li a {color: white;
+}
+#nav li:hover {background-color: darkblue;
+}
+
+/******* CONTENT ******/
+
+#content p {border-bottom: darkred solid 3px; 
+		width: 450px; 
+		margin: 30px auto;
+}
